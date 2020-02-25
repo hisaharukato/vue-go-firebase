@@ -1,6 +1,15 @@
-# vue-go-firebase
+# Vue.js + Go言語 + FirebaseでFrontend & Backend API 両方で認証するセキュアなSPA開発
 
-## Project setup
+## 参考サイトページ
+```
+https://qiita.com/po3rin/items/d3e016d01162e9d9de80
+```
+
+
+
+## vue.js側の処理
+
+### npm Project setup
 ```
 yarn install
 ```
