@@ -8,3 +8,5 @@ services:
             - .:/go/src/work # マウントディレクトリ指定
         environment:
             - "TZ=Japan"
+        ports:
+           - "127.0.0.1:8000:8000"

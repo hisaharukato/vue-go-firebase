@@ -6,3 +6,7 @@ RUN mkdir /go/src/work
 WORKDIR /go/src/work
 # ホストのファイルをコンテナの作業ディレクトリに移行
 ADD . /go/src/work
+# 軽量なウェブツールキットを導入
+RUN go get github.com/gorilla/mux
+RUN go run github.com/gorilla/handlers
+
