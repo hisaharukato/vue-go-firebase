@@ -9,4 +9,8 @@ ADD . /go/src/work
 # 軽量なウェブツールキットを導入
 RUN go get github.com/gorilla/mux
 RUN go run github.com/gorilla/handlers
+RUN go get firebase.google.com/go
+RUN go get google.golang.org/api/option
+RUN go get firebase.google.com/go/auth
+RUN go get golang.org/x/net/context
 
