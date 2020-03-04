@@ -9,4 +9,7 @@ services:
         environment:
             - "TZ=Japan"
         ports:
-           - "127.0.0.1:8000:8000"
+           - "8000:8000" #golang webserver用のポート
+           - "5050:5050" #delve用のポート
+        privileged: true # Delveで必要なので付与します。セキュリティ面から本番環境では使うべきではありません。
+        command: dlv debug --headless --listen=:5050 --log
