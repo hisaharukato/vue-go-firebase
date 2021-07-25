@@ -21,3 +21,5 @@ yarn-error.log*
 *.sw?
 
 /go-docker/__debug_bin
+/go/__debug_bin
+/go/main

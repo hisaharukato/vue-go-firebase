@@ -6,13 +6,13 @@ import firebase from 'firebase'
 Vue.config.productionTip = false
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCZKqKEVc8wSMrzgrfk0SuU7EA4qGQY-xg",
-  authDomain: "vue-go-firebase-950a3.firebaseapp.com",
-  databaseURL: "https://vue-go-firebase-950a3.firebaseio.com",
-  projectId: "vue-go-firebase-950a3",
-  storageBucket: "vue-go-firebase-950a3.appspot.com",
-  messagingSenderId: "659365831211",
-  appId: "1:659365831211:web:0c1a24f70a66c51f91006e"
+  apiKey: "AIzaSyDWYThry1dULbYDTHseaGnV3LPuN1zOQcI",
+  authDomain: "vue-golang-a3fb7.firebaseapp.com",
+  databaseURL: "https://vue-golang-a3fb7.firebaseio.com",
+  projectId: "vue-golang-a3fb7",
+  storageBucket: "vue-golang-a3fb7.appspot.com",
+  messagingSenderId: "26946518503",
+  appId: "1:26946518503:web:d36ab36cfb3bc390c09142"
 };
 firebase.initializeApp(firebaseConfig)
 

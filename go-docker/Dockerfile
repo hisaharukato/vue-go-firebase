@@ -15,4 +15,4 @@ RUN go get google.golang.org/api/option
 RUN go get github.com/derekparker/delve/cmd/dlv
 RUN go get firebase.google.com/go
 RUN go get firebase.google.com/go/auth
-
+RUN go get github.com/oxequa/realize

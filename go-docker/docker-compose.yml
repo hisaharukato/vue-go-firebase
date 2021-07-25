@@ -5,7 +5,7 @@ services:
         build: . # ビルドに使用するDockerfileがあるディレクトリ指定
         tty: true # コンテナの起動永続化
         volumes:
-            - .:/go/src/work # マウントディレクトリ指定
+            - ../go:/go/src/work # マウントディレクトリ指定
         environment:
             - "TZ=Japan"
         ports:
